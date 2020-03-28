@@ -1,2 +1,3 @@
 #Ignore xcode project file
-c-string-library/*.xcodeproj
+c-string-library/*.xcodeproj/*
+cBinaryTree/*.xcodeproj/*
