@@ -14,14 +14,38 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-struct _TreeNode {
+typedef struct _TreeNode {
     int32_t val;
     struct _TreeNode *left;
     struct _TreeNode *right;
-};
+} TreeNode;
 
-typedef struct _Treenode TreeNode;
 
-TreeNode *my_tree__create_new_treeNode(int val);
-TreeNode *my_tree__insert_treeNode(TreeNode *node, int val);
+TreeNode *my_tree__create_new_treeNode(int32_t val);
+TreeNode *my_tree__insert_treeNode(TreeNode *node, int32_t val);
+bool my_tree__lookup(TreeNode *node, int32_t target);
+
+int32_t my_tree__get_size(TreeNode *node);
+
+int32_t my_tree__get_max_depth(TreeNode *node);
+
+int32_t my_tree__get_min_value_recurrsive(TreeNode *node);
+
+int32_t my_tree__get_max_value_recurrsive(TreeNode *node);
+
+int32_t my_tree__get_min_value_iterative(TreeNode *node);
+
+int32_t my_tree__get_max_value_iterative(TreeNode *node);
+
+void my_tree__print_preorder_recurrsive(TreeNode *node);
+
+void my_tree__print_inorder_recurrsive(TreeNode *node);
+
+void my_tree__print_postorder_recurrsive(TreeNode *node);
+
+void my_tree__print_level_order(TreeNode *node);
+
+bool my_tree__is_bst_not_efficient(TreeNode *node);
+
+bool my_tree__is_bst_efficient(TreeNode *node);
 #endif /* my_tree_h */
