@@ -110,9 +110,9 @@ void my_tree__print_preorder_recurrsive(TreeNode *node) {
 */
 void my_tree__print_inorder_recurrsive(TreeNode *node) {
     if (NULL == node) return;
-    my_tree__print_preorder_recurrsive(node->left);
+    my_tree__print_inorder_recurrsive(node->left);
     printf("%d ", node->val);
-    my_tree__print_preorder_recurrsive(node->right);
+    my_tree__print_inorder_recurrsive(node->right);
 }
 
 /*
@@ -122,8 +122,9 @@ void my_tree__print_inorder_recurrsive(TreeNode *node) {
  3. D - Visit the node
 */
 void my_tree__print_postorder_recurrsive(TreeNode *node) {
-    my_tree__print_preorder_recurrsive(node->left);
-    my_tree__print_preorder_recurrsive(node->right);
+    if (NULL == node) return;
+    my_tree__print_postorder_recurrsive(node->left);
+    my_tree__print_postorder_recurrsive(node->right);
     printf("%d ", node->val);
 }
 
