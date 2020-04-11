@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A30A482433311600F0D8EE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A30A472433311600F0D8EE /* main.c */; };
-		07A30A502433314900F0D8EE /* my_ternary_search_trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */; };
+		07A1B934243FF085009C4641 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A1B933243FF085009C4641 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		07A30A422433311600F0D8EE /* CopyFiles */ = {
+		07A1B92E243FF085009C4641 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07A30A442433311600F0D8EE /* cTernarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cTernarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A30A472433311600F0D8EE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		07A30A4E2433314900F0D8EE /* my_ternary_search_trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_ternary_search_trees.h; sourceTree = "<group>"; };
-		07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_ternary_search_trees.c; sourceTree = "<group>"; };
+		07A1B930243FF085009C4641 /* cTicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cTicTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A1B933243FF085009C4641 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07A30A412433311600F0D8EE /* Frameworks */ = {
+		07A1B92D243FF085009C4641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07A30A3B2433311600F0D8EE = {
+		07A1B927243FF085009C4641 = {
 			isa = PBXGroup;
 			children = (
-				07A30A462433311600F0D8EE /* cTernarySearchTree */,
-				07A30A452433311600F0D8EE /* Products */,
+				07A1B932243FF085009C4641 /* cTicTacToe */,
+				07A1B931243FF085009C4641 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07A30A452433311600F0D8EE /* Products */ = {
+		07A1B931243FF085009C4641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07A30A442433311600F0D8EE /* cTernarySearchTree */,
+				07A1B930243FF085009C4641 /* cTicTacToe */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07A30A462433311600F0D8EE /* cTernarySearchTree */ = {
+		07A1B932243FF085009C4641 /* cTicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				07A30A472433311600F0D8EE /* main.c */,
-				07A30A4E2433314900F0D8EE /* my_ternary_search_trees.h */,
-				07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */,
+				07A1B933243FF085009C4641 /* main.c */,
 			);
-			path = cTernarySearchTree;
+			path = cTicTacToe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07A30A432433311600F0D8EE /* cTernarySearchTree */ = {
+		07A1B92F243FF085009C4641 /* cTicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07A30A4B2433311600F0D8EE /* Build configuration list for PBXNativeTarget "cTernarySearchTree" */;
+			buildConfigurationList = 07A1B937243FF085009C4641 /* Build configuration list for PBXNativeTarget "cTicTacToe" */;
 			buildPhases = (
-				07A30A402433311600F0D8EE /* Sources */,
-				07A30A412433311600F0D8EE /* Frameworks */,
-				07A30A422433311600F0D8EE /* CopyFiles */,
+				07A1B92C243FF085009C4641 /* Sources */,
+				07A1B92D243FF085009C4641 /* Frameworks */,
+				07A1B92E243FF085009C4641 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cTernarySearchTree;
-			productName = cTernarySearchTree;
-			productReference = 07A30A442433311600F0D8EE /* cTernarySearchTree */;
+			name = cTicTacToe;
+			productName = cTicTacToe;
+			productReference = 07A1B930243FF085009C4641 /* cTicTacToe */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		07A30A3C2433311600F0D8EE /* Project object */ = {
+		07A1B928243FF085009C4641 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Aakash Chitroda";
 				TargetAttributes = {
-					07A30A432433311600F0D8EE = {
+					07A1B92F243FF085009C4641 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = 07A30A3F2433311600F0D8EE /* Build configuration list for PBXProject "cTernarySearchTree" */;
+			buildConfigurationList = 07A1B92B243FF085009C4641 /* Build configuration list for PBXProject "cTicTacToe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 07A30A3B2433311600F0D8EE;
-			productRefGroup = 07A30A452433311600F0D8EE /* Products */;
+			mainGroup = 07A1B927243FF085009C4641;
+			productRefGroup = 07A1B931243FF085009C4641 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07A30A432433311600F0D8EE /* cTernarySearchTree */,
+				07A1B92F243FF085009C4641 /* cTicTacToe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07A30A402433311600F0D8EE /* Sources */ = {
+		07A1B92C243FF085009C4641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A30A482433311600F0D8EE /* main.c in Sources */,
-				07A30A502433314900F0D8EE /* my_ternary_search_trees.c in Sources */,
+				07A1B934243FF085009C4641 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		07A30A492433311600F0D8EE /* Debug */ = {
+		07A1B935243FF085009C4641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		07A30A4A2433311600F0D8EE /* Release */ = {
+		07A1B936243FF085009C4641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		07A30A4C2433311600F0D8EE /* Debug */ = {
+		07A1B938243FF085009C4641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		07A30A4D2433311600F0D8EE /* Release */ = {
+		07A1B939243FF085009C4641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07A30A3F2433311600F0D8EE /* Build configuration list for PBXProject "cTernarySearchTree" */ = {
+		07A1B92B243FF085009C4641 /* Build configuration list for PBXProject "cTicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A30A492433311600F0D8EE /* Debug */,
-				07A30A4A2433311600F0D8EE /* Release */,
+				07A1B935243FF085009C4641 /* Debug */,
+				07A1B936243FF085009C4641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07A30A4B2433311600F0D8EE /* Build configuration list for PBXNativeTarget "cTernarySearchTree" */ = {
+		07A1B937243FF085009C4641 /* Build configuration list for PBXNativeTarget "cTicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A30A4C2433311600F0D8EE /* Debug */,
-				07A30A4D2433311600F0D8EE /* Release */,
+				07A1B938243FF085009C4641 /* Debug */,
+				07A1B939243FF085009C4641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 07A30A3C2433311600F0D8EE /* Project object */;
+	rootObject = 07A1B928243FF085009C4641 /* Project object */;
 }

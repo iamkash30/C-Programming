@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A30A482433311600F0D8EE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A30A472433311600F0D8EE /* main.c */; };
-		07A30A502433314900F0D8EE /* my_ternary_search_trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */; };
+		07A1B91E243EC18F009C4641 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A1B91D243EC18F009C4641 /* main.c */; };
+		07A1B926243EC1B1009C4641 /* my_recurrsion.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A1B925243EC1B1009C4641 /* my_recurrsion.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		07A30A422433311600F0D8EE /* CopyFiles */ = {
+		07A1B918243EC18F009C4641 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07A30A442433311600F0D8EE /* cTernarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cTernarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		07A30A472433311600F0D8EE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		07A30A4E2433314900F0D8EE /* my_ternary_search_trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_ternary_search_trees.h; sourceTree = "<group>"; };
-		07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_ternary_search_trees.c; sourceTree = "<group>"; };
+		07A1B91A243EC18F009C4641 /* cRecurrsion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cRecurrsion; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A1B91D243EC18F009C4641 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		07A1B924243EC1B1009C4641 /* my_recurrsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_recurrsion.h; sourceTree = "<group>"; };
+		07A1B925243EC1B1009C4641 /* my_recurrsion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_recurrsion.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07A30A412433311600F0D8EE /* Frameworks */ = {
+		07A1B917243EC18F009C4641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07A30A3B2433311600F0D8EE = {
+		07A1B911243EC18F009C4641 = {
 			isa = PBXGroup;
 			children = (
-				07A30A462433311600F0D8EE /* cTernarySearchTree */,
-				07A30A452433311600F0D8EE /* Products */,
+				07A1B91C243EC18F009C4641 /* cRecurrsion */,
+				07A1B91B243EC18F009C4641 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		07A30A452433311600F0D8EE /* Products */ = {
+		07A1B91B243EC18F009C4641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07A30A442433311600F0D8EE /* cTernarySearchTree */,
+				07A1B91A243EC18F009C4641 /* cRecurrsion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07A30A462433311600F0D8EE /* cTernarySearchTree */ = {
+		07A1B91C243EC18F009C4641 /* cRecurrsion */ = {
 			isa = PBXGroup;
 			children = (
-				07A30A472433311600F0D8EE /* main.c */,
-				07A30A4E2433314900F0D8EE /* my_ternary_search_trees.h */,
-				07A30A4F2433314900F0D8EE /* my_ternary_search_trees.c */,
+				07A1B91D243EC18F009C4641 /* main.c */,
+				07A1B924243EC1B1009C4641 /* my_recurrsion.h */,
+				07A1B925243EC1B1009C4641 /* my_recurrsion.c */,
 			);
-			path = cTernarySearchTree;
+			path = cRecurrsion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07A30A432433311600F0D8EE /* cTernarySearchTree */ = {
+		07A1B919243EC18F009C4641 /* cRecurrsion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07A30A4B2433311600F0D8EE /* Build configuration list for PBXNativeTarget "cTernarySearchTree" */;
+			buildConfigurationList = 07A1B921243EC18F009C4641 /* Build configuration list for PBXNativeTarget "cRecurrsion" */;
 			buildPhases = (
-				07A30A402433311600F0D8EE /* Sources */,
-				07A30A412433311600F0D8EE /* Frameworks */,
-				07A30A422433311600F0D8EE /* CopyFiles */,
+				07A1B916243EC18F009C4641 /* Sources */,
+				07A1B917243EC18F009C4641 /* Frameworks */,
+				07A1B918243EC18F009C4641 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cTernarySearchTree;
-			productName = cTernarySearchTree;
-			productReference = 07A30A442433311600F0D8EE /* cTernarySearchTree */;
+			name = cRecurrsion;
+			productName = cRecurrsion;
+			productReference = 07A1B91A243EC18F009C4641 /* cRecurrsion */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		07A30A3C2433311600F0D8EE /* Project object */ = {
+		07A1B912243EC18F009C4641 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Aakash Chitroda";
 				TargetAttributes = {
-					07A30A432433311600F0D8EE = {
+					07A1B919243EC18F009C4641 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = 07A30A3F2433311600F0D8EE /* Build configuration list for PBXProject "cTernarySearchTree" */;
+			buildConfigurationList = 07A1B915243EC18F009C4641 /* Build configuration list for PBXProject "cRecurrsion" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 07A30A3B2433311600F0D8EE;
-			productRefGroup = 07A30A452433311600F0D8EE /* Products */;
+			mainGroup = 07A1B911243EC18F009C4641;
+			productRefGroup = 07A1B91B243EC18F009C4641 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07A30A432433311600F0D8EE /* cTernarySearchTree */,
+				07A1B919243EC18F009C4641 /* cRecurrsion */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07A30A402433311600F0D8EE /* Sources */ = {
+		07A1B916243EC18F009C4641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07A30A482433311600F0D8EE /* main.c in Sources */,
-				07A30A502433314900F0D8EE /* my_ternary_search_trees.c in Sources */,
+				07A1B91E243EC18F009C4641 /* main.c in Sources */,
+				07A1B926243EC1B1009C4641 /* my_recurrsion.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		07A30A492433311600F0D8EE /* Debug */ = {
+		07A1B91F243EC18F009C4641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		07A30A4A2433311600F0D8EE /* Release */ = {
+		07A1B920243EC18F009C4641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		07A30A4C2433311600F0D8EE /* Debug */ = {
+		07A1B922243EC18F009C4641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		07A30A4D2433311600F0D8EE /* Release */ = {
+		07A1B923243EC18F009C4641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07A30A3F2433311600F0D8EE /* Build configuration list for PBXProject "cTernarySearchTree" */ = {
+		07A1B915243EC18F009C4641 /* Build configuration list for PBXProject "cRecurrsion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A30A492433311600F0D8EE /* Debug */,
-				07A30A4A2433311600F0D8EE /* Release */,
+				07A1B91F243EC18F009C4641 /* Debug */,
+				07A1B920243EC18F009C4641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07A30A4B2433311600F0D8EE /* Build configuration list for PBXNativeTarget "cTernarySearchTree" */ = {
+		07A1B921243EC18F009C4641 /* Build configuration list for PBXNativeTarget "cRecurrsion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A30A4C2433311600F0D8EE /* Debug */,
-				07A30A4D2433311600F0D8EE /* Release */,
+				07A1B922243EC18F009C4641 /* Debug */,
+				07A1B923243EC18F009C4641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 07A30A3C2433311600F0D8EE /* Project object */;
+	rootObject = 07A1B912243EC18F009C4641 /* Project object */;
 }
