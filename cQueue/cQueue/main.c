@@ -20,6 +20,12 @@ int main(int argc, const char * argv[]) {
     my_queue__enqueue(queue, 3);
     my_queue__enqueue(queue, 4);
     printf("Dequeue: %d\n", my_queue__dequeue(queue));
+    my_queue__enqueue(queue, 5);
+    printf("Dequeue: %d\n", my_queue__dequeue(queue));
+    my_queue__enqueue(queue, 6);
+    printf("Dequeue: %d\n", my_queue__dequeue(queue));
+    my_queue__enqueue(queue, 7);
+    printf("Dequeue: %d\n", my_queue__dequeue(queue));
     printf("Dequeue: %d\n", my_queue__dequeue(queue));
     printf("Dequeue: %d\n", my_queue__dequeue(queue));
     printf("Dequeue: %d\n", my_queue__dequeue(queue));
