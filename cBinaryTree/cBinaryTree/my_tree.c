@@ -8,6 +8,7 @@
 
 #include "my_tree.h"
 #include "my_queue.h"
+#include "my_stack.h"
 
 TreeNode *my_tree__create_new_treeNode(int32_t val) {
     TreeNode *newTreeNode = (TreeNode *)malloc(sizeof(TreeNode));
@@ -102,6 +103,24 @@ void my_tree__print_preorder_recurrsive(TreeNode *node) {
     my_tree__print_preorder_recurrsive(node->right);
 }
 
+void my_tree__print_preorder_iterative(TreeNode *node) {
+    if (NULL == node) return;
+    stack *s = my_stack__create();
+    printf("\n");
+    while (1) {
+        while (node) {
+            printf("%d ", node->val);
+            my_stack__push(s, node);
+            node = node->left;
+        }
+        if (my_stack__empty(s)) break;
+        node = my_stack__top(s);
+        my_stack__pop(s);
+        node = node->right;
+    }
+    printf("\n");
+}
+
 /*
  LDR
  1. L - Go left
@@ -115,6 +134,24 @@ void my_tree__print_inorder_recurrsive(TreeNode *node) {
     my_tree__print_inorder_recurrsive(node->right);
 }
 
+void my_tree__print_inorder_iterative(TreeNode *node) {
+    if (NULL == node) return;
+    stack *s = my_stack__create();
+    printf("\n");
+    while (1) {
+        while (node) {
+            my_stack__push(s, node);
+            node = node->left;
+        }
+        if (my_stack__empty(s)) break;
+        node = my_stack__top(s);
+        printf("%d ", node->val);
+        my_stack__pop(s);
+        node = node->right;
+    }
+    printf("\n");
+}
+
 /*
  LRD
  1. L - Go left
@@ -126,6 +163,55 @@ void my_tree__print_postorder_recurrsive(TreeNode *node) {
     my_tree__print_postorder_recurrsive(node->left);
     my_tree__print_postorder_recurrsive(node->right);
     printf("%d ", node->val);
+}
+
+void my_tree__print_postorder_iterative(TreeNode *node) {
+    if (!node) return;
+    stack *s = my_stack__create();
+    TreeNode *curr = node;
+    printf("\n");
+    
+    while (1) {
+        if (curr) {
+            my_stack__push(s, curr);
+            curr = curr->left;
+        } else {
+            if (my_stack__empty(s)) break;
+            else {
+                if (my_stack__top(s)->right == NULL) {
+                    curr = my_stack__pop(s);
+                    printf("%d ", curr->val);
+                    while (curr == my_stack__top(s)->right) {
+                        printf("%d ", my_stack__top(s)->val);
+                        curr = my_stack__pop(s);
+                    }
+                }
+                if (!my_stack__empty(s)) curr = my_stack__top(s)->right;
+                else break;
+            }
+        }
+    }
+
+//    while (!my_stack__empty(s)) {
+//        curr = my_stack__top(s);
+//        my_stack__pop(s);
+//        // Go Left
+//        if (node->left) {
+//            my_stack__push(s, node->left);
+//            node = node->left;
+//        }
+//        // Go Right
+//        else if (node->right) {
+//            my_stack__push(s, node->right);
+//            node = node->right;
+//        }
+//        // Visit the node
+//        else {
+//            printf("%d ", node->val);
+//            my_stack__pop(s);
+//        }
+//    }
+    printf("\n");
 }
 
 /*

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A4A9B0244BECE200E720F1 /* my_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 07A4A9AF244BECE200E720F1 /* my_stack.c */; };
 		07CB9D68242FEA8A00068144 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9D67242FEA8A00068144 /* main.c */; };
 		07CB9D70242FEB4000068144 /* my_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9D6F242FEB4000068144 /* my_tree.c */; };
 		07CB9D7324300B4200068144 /* my_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9D7224300B4200068144 /* my_queue.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07A4A9AE244BECE200E720F1 /* my_stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_stack.h; sourceTree = "<group>"; };
+		07A4A9AF244BECE200E720F1 /* my_stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = my_stack.c; sourceTree = "<group>"; };
 		07CB9D64242FEA8A00068144 /* cBinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cBinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CB9D67242FEA8A00068144 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		07CB9D6E242FEB4000068144 /* my_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = my_tree.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				07CB9D6F242FEB4000068144 /* my_tree.c */,
 				07CB9D7124300B4200068144 /* my_queue.h */,
 				07CB9D7224300B4200068144 /* my_queue.c */,
+				07A4A9AE244BECE200E720F1 /* my_stack.h */,
+				07A4A9AF244BECE200E720F1 /* my_stack.c */,
 			);
 			path = cBinaryTree;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				07CB9D7324300B4200068144 /* my_queue.c in Sources */,
 				07CB9D68242FEA8A00068144 /* main.c in Sources */,
+				07A4A9B0244BECE200E720F1 /* my_stack.c in Sources */,
 				07CB9D70242FEB4000068144 /* my_tree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

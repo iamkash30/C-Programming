@@ -40,9 +40,15 @@ int32_t my_tree__get_max_value_iterative(TreeNode *node);
 
 void my_tree__print_preorder_recurrsive(TreeNode *node);
 
+void my_tree__print_preorder_iterative(TreeNode *node);
+
 void my_tree__print_inorder_recurrsive(TreeNode *node);
 
+void my_tree__print_inorder_iterative(TreeNode *node);
+
 void my_tree__print_postorder_recurrsive(TreeNode *node);
+
+void my_tree__print_postorder_iterative(TreeNode *node);
 
 void my_tree__print_level_order(TreeNode *node);
 
